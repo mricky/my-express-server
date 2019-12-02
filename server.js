@@ -8,4 +8,14 @@ app.get('/', function(request, response){
 
 });
 
+app.get('/contact', function(request, response){
+	response.send("Contact me at : mricky.it@gmail.com /");
+});
+app.get('/about', (req, res) => res.send("My name is Ricky I loeve code"));
+
+app.get('/hobbies', function(req, res){
+	res.send('<ul><li>Cofee</li><li>Juice</ul>');
+});
+
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
