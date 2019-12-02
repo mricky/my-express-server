@@ -7,6 +7,3 @@ Multi Route
 
 Using Nodemon
 ````
-Case Project
------------------
-Calculator BMI
